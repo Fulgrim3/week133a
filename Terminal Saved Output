@@ -1,0 +1,116 @@
+Last login: Mon Feb  7 15:47:27 on ttys000
+main@Donalds-MacBook-Pro ~ % ls
+About			Library			composer.json
+Applications		Movies			composer.lock
+Creative Cloud Files	Music			git
+Desktop			Pictures		vendor
+Documents		Public			website
+Downloads		PycharmProjects
+main@Donalds-MacBook-Pro ~ % cd documents
+main@Donalds-MacBook-Pro documents % cd 2022
+main@Donalds-MacBook-Pro 2022 % cd CS33a
+main@Donalds-MacBook-Pro CS33a % ls
+README.md	projects	week0		week1
+main@Donalds-MacBook-Pro CS33a % cd week1
+main@Donalds-MacBook-Pro week1 % ls
+Lecture examples	examples
+main@Donalds-MacBook-Pro week1 % cd Lecture examples
+cd: string not in pwd: Lecture
+main@Donalds-MacBook-Pro week1 % cd examples
+main@Donalds-MacBook-Pro examples % ls
+hello.py	main.py		venv
+main@Donalds-MacBook-Pro examples % python hello.py
+main@Donalds-MacBook-Pro examples % Python hello.py
+main@Donalds-MacBook-Pro examples % ls
+hello.py	main.py		venv
+main@Donalds-MacBook-Pro examples % python hello.py
+Hello, world!
+main@Donalds-MacBook-Pro examples % python hello.py
+Hello, world!
+main@Donalds-MacBook-Pro examples % python name.py
+Name: Donald
+Traceback (most recent call last):
+  File "name.py", line 1, in <module>
+    name = input("Name: ")
+  File "<string>", line 1, in <module>
+NameError: name 'Donald' is not defined
+main@Donalds-MacBook-Pro examples % python name.py
+Name: donald
+Traceback (most recent call last):
+  File "name.py", line 1, in <module>
+    name = input("Name: ")
+  File "<string>", line 1, in <module>
+NameError: name 'donald' is not defined
+main@Donalds-MacBook-Pro examples % python name.py
+Name: Donald
+Traceback (most recent call last):
+  File "name.py", line 1, in <module>
+    name = input("Name: ")
+  File "<string>", line 1, in <module>
+NameError: name 'Donald' is not defined
+main@Donalds-MacBook-Pro examples % python name.py
+Name: dpna
+Traceback (most recent call last):
+  File "name.py", line 1, in <module>
+    name = input("Name: ")
+  File "<string>", line 1, in <module>
+NameError: name 'dpna' is not defined
+main@Donalds-MacBook-Pro examples % python name.py
+  File "name.py", line 2
+    print(f"Hello, {name}")
+                         ^
+SyntaxError: invalid syntax
+main@Donalds-MacBook-Pro examples % python name.py
+  File "name.py", line 2
+    print(f"Hello, {name}")
+                         ^
+SyntaxError: invalid syntax
+main@Donalds-MacBook-Pro examples % python name.py
+  File "name.py", line 2
+    print(f"Hello, {name}")
+                         ^
+SyntaxError: invalid syntax
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: 5
+n is poz
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: 0
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: -1
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: 0
+n is 0
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: -1
+n is neg
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: 5
+n is poz
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: spring
+Traceback (most recent call last):
+  File "conditions.py", line 1, in <module>
+    n = input("Number: ")
+  File "<string>", line 1, in <module>
+NameError: name 'spring' is not defined
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: name
+Traceback (most recent call last):
+  File "conditions.py", line 1, in <module>
+    n = int(input("Number: "))
+  File "<string>", line 1, in <module>
+NameError: name 'name' is not defined
+main@Donalds-MacBook-Pro examples % python conditions.py
+Number: 5
+n is poz
+main@Donalds-MacBook-Pro examples % python sequences.py
+H
+main@Donalds-MacBook-Pro examples % python sequences.py
+H
+main@Donalds-MacBook-Pro examples % python sequences.py
+H
+main@Donalds-MacBook-Pro examples % python sequences.py
+H
+main@Donalds-MacBook-Pro examples % python sequences.py
+H
+main@Donalds-MacBook-Pro examples % 
