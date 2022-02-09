@@ -1,3 +1,9 @@
-name = ["Harry, Ron, Her-ass"]
+coordinateX = 10.0
+coordinateY = 20.0
 
-print(name[0])
+is
+
+coordinate = (10.0, 20.0)
+
+
+# example is flawed on purpose. !!!!
